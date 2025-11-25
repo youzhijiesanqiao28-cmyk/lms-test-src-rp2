@@ -30,6 +30,7 @@ public class Case01 {
 	@AfterAll
 	static void after() {
 		closeDriver();
+
 	}
 
 	@Test
