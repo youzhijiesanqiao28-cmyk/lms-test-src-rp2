@@ -58,7 +58,7 @@ public class Case03 {
 		//ログインIDの表示を待機
 		visibilityTimeout(By.name("loginId"), 10);
 
-		// 存在しないログインID・パスワードを入力
+		// 存在するログインID・パスワードを入力
 		webDriver.findElement(By.name("loginId")).sendKeys("StudentAA01");
 		webDriver.findElement(By.name("password")).sendKeys("uP61MpS4");
 
